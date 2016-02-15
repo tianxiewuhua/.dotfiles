@@ -1,0 +1,10 @@
+#OS generated files ignored#
+###########
+*.DS_Store
+*.swp
+
+#Private
+hosts/
+
+#App
+sublimetext/
