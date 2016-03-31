@@ -62,9 +62,8 @@ export PATH="/Users/tianxiewuhua/Tools/android-sdk-macosx/tools:$PATH"
 export PATH="/Users/tianxiewuhua/Tools/android-sdk-macosx/build-tools/23.0.2:$PATH"
 export PATH="/Users/tianxiewuhua/Tools/android-sdk-macosx/platform-tools:$PATH"
 
-#My Tool
+#My Tools Env
 export PATH="/Users/tianxiewuhua/Tools/subTools:$PATH"
-
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -86,10 +85,10 @@ export PATH="/Users/tianxiewuhua/Tools/subTools:$PATH"
 
 #fpath=("/usr/local/Cellar/zsh-completions/0.10.0/share/zsh-completions" $fpath)
 
-#my config
-
+#Homebrew Token
 export HOMEBREW_GITHUB_API_TOKEN='2fad512a0790347e1a879f9b2c7f59c66505ef31'
 
+#Terminator Directorty Colors Env
 if [ -x /usr/local/opt/coreutils/libexec/gnubin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls --color=auto'
@@ -103,10 +102,12 @@ fi
 
 #export PATH="/usr/local/sbin:$PATH"
 
-# some more ls aliases
+#ls aliases Env
 alias ll='ls -alhF'
 alias la='ls -A'
 alias l='ls -CF'
+
+#Extra aliases Env
 alias cls=clear
 alias vi=vim
 #alias ccl=dx86cl64
@@ -119,4 +120,5 @@ alias dex2jar='d2j-dex2jar'
 alias sl=ls
 alias gs='git status -s'
 
+#funny!
 archey -c
