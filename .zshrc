@@ -5,7 +5,8 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+#ZSH_THEME="robbyrussell"
+ZSH_THEME="miloshadzic"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -59,7 +60,7 @@ export PATH="/usr/local/opt/coreutils/libexec/gnubin:/usr/bin:/bin:/usr/sbin:/sb
 
 #Android Tools Env
 export PATH="/Users/tianxiewuhua/Tools/android-sdk-macosx/tools:$PATH"
-export PATH="/Users/tianxiewuhua/Tools/android-sdk-macosx/build-tools/23.0.2:$PATH"
+export PATH="/Users/tianxiewuhua/Tools/android-sdk-macosx/build-tools/24.0.0:$PATH"
 export PATH="/Users/tianxiewuhua/Tools/android-sdk-macosx/platform-tools:$PATH"
 
 #My Tool
@@ -88,7 +89,7 @@ export PATH="/Users/tianxiewuhua/Tools/subTools:$PATH"
 
 #my config
 
-export HOMEBREW_GITHUB_API_TOKEN='2fad512a0790347e1a879f9b2c7f59c66505ef31'
+export HOMEBREW_GITHUB_API_TOKEN="a56b99ab188ea0f17083f708516d215abbceca99"
 
 if [ -x /usr/local/opt/coreutils/libexec/gnubin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
@@ -118,5 +119,8 @@ alias d2j='d2j-dex2jar'
 alias dex2jar='d2j-dex2jar'
 alias sl=ls
 alias gs='git status -s'
+alias gpull='git pull'
+alias gpush='git push'
+alias lg='du -shc *'
 
 archey -c
